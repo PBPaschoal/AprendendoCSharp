@@ -1,32 +1,42 @@
-﻿using System;
-using System.Globalization;
+﻿/*Praticando entrada de dados em C#
+ *Na variável 'frase' iremos digitar por exemplo: Bom dia!
+ *Na variável 'x' digitamos por exemplo: Verde
+ *Na variável 'y' digitamos por exemplo: Azul
+ *Na variável 'z' Digitamos por exemplo: Rosa
+ *Por ultumi digitamos 3 palavras juntas (na mesma linha) e separar nas variaveis.
+ *Ler um texto até a quebra de linha e armazenar em uma variável.
+ *Ler três palavras, uma em cada linha, armazenando cada uma em uma variável.
+ *Ler três palavras na mesma linha, separadas por espaço, armazenando cada uma em uma variável.
+ */
 
-namespace ExercicioFixacao
+
+using System;
+
+namespace Vetores01
 {
     class Program
     {
         static void Main(string[] args)
         {
-            string produto1 = "Computador";
-            string produto2 = "Mesa de escritório";
+            string frase = Console.ReadLine();
+            string x = Console.ReadLine();
+            string y = Console.ReadLine();
+            string z = Console.ReadLine();
 
-            byte idade = 30;
-            int codigo = 5290;
-            char genero = 'M';
+            string[] v = Console.ReadLine().Split(' ');
+            string a = v[0];
+            string b = v[1];
+            string c = v[2];
 
-            double preco1 = 2100.0;
-            double preco2 = 650.50;
-            double medida = 53.234567;
+            Console.WriteLine("Você digitou: ");
+            Console.WriteLine(frase);
+            Console.WriteLine(x);
+            Console.WriteLine(y);
+            Console.WriteLine(z);
+            Console.WriteLine(a);
+            Console.WriteLine(b);
+            Console.WriteLine(c);
 
-            Console.WriteLine("Produtos: ");
-            Console.WriteLine("{0}, cujo preço é $ {1:F2}", produto1, preco1);
-            Console.WriteLine("{0}, cujo preço é $ {1:F2}", produto2, preco2);
-            Console.WriteLine();
-            Console.WriteLine("Registro: {0} anos de idade, código {1} e gênero: {2}", idade, codigo, genero);
-            Console.WriteLine();
-            Console.WriteLine("Medida com oito casas decimais: {0:F8}", medida);
-            Console.WriteLine("Arredondado (três casas decimais): {0:F3}", medida);
-            Console.WriteLine("Separador decimal invariant culture: " + medida.ToString("F3", CultureInfo.InvariantCulture));
         }
     }
 }
