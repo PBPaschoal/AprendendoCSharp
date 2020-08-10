@@ -1,4 +1,4 @@
-﻿//Apenas uma brincadeira que eu fiz para praticar, inspirado em filmes de Hacker
+//Apenas uma brincadeira que eu fiz para praticar, inspirado em filmes de Hacker
 using System;
 
 namespace Programming_Password
@@ -12,7 +12,7 @@ namespace Programming_Password
 
             sen = 1234;
             Console.WriteLine("Acesso restrito ");
-            Console.WriteLine("There is no valid permission to access the data.");
+            Console.Write("There is no valid permission to access the data.");
             A = int.Parse(Console.ReadLine());
             do {
                 if (A == sen) {
@@ -27,18 +27,20 @@ namespace Programming_Password
                     Console.WriteLine("Loading... 96%");
                     Console.WriteLine("Loading... 99%");
                     Console.WriteLine("Loading... 100%");
-                    Console.WriteLine("\nEntry allowed successfully. Database access available\n");
+                    Console.WriteLine("Entry allowed successfully. Database access available");
                     break;
                 }
                 else {
-                    Console.WriteLine("\nAccess denied\n");
+                    Console.WriteLine("Access denied");
+                    Console.Write("There is no valid permission to access the data.");
                     A = int.Parse(Console.ReadLine());
                 }
                 contador++;
-            } while (contador < 2);
-            if (contador == 2) {
-                Console.WriteLine("\nToo many attempts. Connection closed\n");
+            } while (contador < 3);
+            if (contador == 3) {
+                Console.WriteLine("Too many attempts. Connection closed");
             }
+            Console.ReadLine();
         }
     }
 }
