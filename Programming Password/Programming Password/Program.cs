@@ -7,9 +7,8 @@ namespace Programming_Password
     {
         static void Main(string[] args)
         {
-            int A, contador = 0;
-            double sen;
-
+            int A, sen, contador = 0;
+            
             sen = 1234;
             Console.WriteLine("Acesso restrito ");
             Console.Write("There is no valid permission to access the data.");
