@@ -35,7 +35,7 @@ namespace Aula_58_Exercicio_Resolvido_02_Vetores
 
             for (int i=0; i<N; i++)
             {
-                Console.WriteLine(A[i].ToString("F1", CultureInfo.InvariantCulture) + " ");
+                Console.Write(A[i].ToString("F1", CultureInfo.InvariantCulture) + " ");
             }
             Console.WriteLine();
 
