@@ -9,124 +9,124 @@ namespace ProgramaTeste01
         static void Main(string[] args)
         {
             int quantidade;
-            string M, N;
+            string paIs, estado;
 
-            Console.WriteLine("Quantas vezes deseja repetir? ");
+            Console.Write("Quantas vezes deseja repetir? ");
             quantidade = int.Parse(Console.ReadLine());
 
             for (int i=0; i<quantidade; i++) {
-                Console.WriteLine("\nEm qual país e estado você nasceu? ");
+                Console.WriteLine("\nEm qual país e estado você nasceu?");
                 Console.WriteLine("OBS: Responda apenas o pais e o estado");
                 Console.WriteLine("EXEMPLO: Brasil RJ\n");
                 string[] s1 = Console.ReadLine().Split(' ');
-                M = (s1[0]);
-                N = (s1[1]);
+                paIs = (s1[0]);
+                estado = (s1[1]);
 
-                if (M == "Brasil" && N == "RJ")
+                if (paIs == "Brasil" && estado == "RJ")
                 {
                     Console.WriteLine("Olá carioca!");
                 }
-                else if (M == "Brasil" && N == "SP")
+                else if (paIs == "Brasil" && estado == "SP")
                 {
                     Console.WriteLine("Olá paulista");
                 }
-                else if (M == "Brasil" && N == "AC")
+                else if (paIs == "Brasil" && estado == "AC")
                 {
                     Console.WriteLine("Olá acriano(a)");
                 }
-                else if (M == "Brasil" && N == "AL")
+                else if (paIs == "Brasil" && estado == "AL")
                 {
                     Console.WriteLine("Olá alagoano(a)");
                 }
-                else if (M =="Brasil" && N == "AP")
+                else if (paIs == "Brasil" && estado == "AP")
                 {
                     Console.WriteLine("Olá amapaense");
                 }
-                else if (M == "Brasil" && N == "AM")
+                else if (paIs == "Brasil" && estado == "AM")
                 {
                     Console.WriteLine("Olá amazonense");
                 }
-                else if (M == "Brasil" && N == "BA")
+                else if (paIs == "Brasil" && estado == "BA")
                 {
                     Console.WriteLine("Olá bahiano(a)");
                 }
-                else if (M == "Brasil" && N == "CE")
+                else if (paIs == "Brasil" && estado == "CE")
                 {
                     Console.WriteLine("Olá cearense");
                 }
-                else if (M == "Brasil" && N == "ES")
+                else if (paIs == "Brasil" && estado == "ES")
                 {
                     Console.WriteLine("Olá capixaba");
                 }
-                else if (M == "Brasil" && N == "GO")
+                else if (paIs == "Brasil" && estado == "GO")
                 {
                     Console.WriteLine("Olá goiano(a)");
                 }
-                else if (M == "Brasil" && N == "MA")
+                else if (paIs == "Brasil" && estado == "MA")
                 {
                     Console.WriteLine("Olá maranhense");
                 }
-                else if (M == "Brasil" && N == "MT")
+                else if (paIs == "Brasil" && estado == "MT")
                 {
                     Console.WriteLine("Olá mato-grossense");
                 }
-                else if (M == "Brasil" && N == "MS")
+                else if (paIs == "Brasil" && estado == "MS")
                 {
                     Console.WriteLine("Olá mato-grossense-do-sul");
                 }
-                else if (M == "Brasil" && N == "MG")
+                else if (paIs == "Brasil" && estado == "MG")
                 {
                     Console.WriteLine("Olá mineiro(a)");
                 }
-                else if (M == "Brasil" && N == "PA")
+                else if (paIs == "Brasil" && estado == "PA")
                 {
                     Console.WriteLine("Olá paraense");
                 }
-                else if (M == "Brasil" && N == "PB")
+                else if (paIs == "Brasil" && estado == "PB")
                 {
                     Console.WriteLine("Olá paraibano(a)");
                 }
-                else if (M == "Brasil" && N == "PR")
+                else if (paIs == "Brasil" && estado == "PR")
                 {
                     Console.WriteLine("Olá paranaense");
                 }
-                else if (M == "Brasil" && N == "PE")
+                else if (paIs == "Brasil" && estado == "PE")
                 {
                     Console.WriteLine("Olá Pernambucano(a)");
                 }
-                else if (M == "Brasil" && N == "PI")
+                else if (paIs == "Brasil" && estado == "PI")
                 {
                     Console.WriteLine("Olá piauiense");
                 }
-                else if (M == "Brasil" && N == "RN")
+                else if (paIs == "Brasil" && estado == "RN")
                 {
                     Console.WriteLine("Olá potiguar");
                 }
-                else if (M == "Brasil" && N == "RS")
+                else if (paIs == "Brasil" && estado == "RS")
                 {
                     Console.WriteLine("Olá gaúcho(a)");
                 }
-                else if (M == "Brasil" && N == "RO")
+                else if (paIs == "Brasil" && estado == "RO")
                 {
                     Console.WriteLine("Olá rondoniense");
                 }
-                else if (M == "Brasil" && N == "RR")
+                else if (paIs == "Brasil" && estado == "RR")
                 {
                     Console.WriteLine("Olá roraimense");
                 }
-                else if (M == "Brasil" && N == "SC")
+                else if (paIs == "Brasil" && estado == "SC")
                 {
                     Console.WriteLine("Olá catarinense");
                 }
-                else if (M == "Brasil" && N == "SE")
+                else if (paIs == "Brasil" && estado == "SE")
                 {
                     Console.WriteLine("Olá nordestino(a)");
                 }
-                else if (M == "Brasil" && N == "TO")
+                else if (paIs == "Brasil" && estado == "TO")
                 {
                     Console.WriteLine("Olá tocantinense");
                 }
-                else if (M == "Brasil" && N == "DF")
+                else if (paIs == "Brasil" && estado == "DF")
                 {
                     Console.WriteLine("Olá brasiliense");
                 }
