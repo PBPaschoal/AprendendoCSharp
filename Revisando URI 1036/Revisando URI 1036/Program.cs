@@ -1,5 +1,5 @@
 ﻿/* Revisando URI 1036
- * Rio de Janeiro dia 10-01-2021
+ * Rio de Janeiro dia 11-01-2021
  * Fórmula de Bhaskara
  * Leia 3 valores de ponto flutuante e efetue o cálculo das raízes da equação de Bhaskara. Se não for possível calcular as 
  * raízes, mostre a mensagem correspondente "impossível calcular", caso haja uma divisão por 0 ou raiz de número negativo.
